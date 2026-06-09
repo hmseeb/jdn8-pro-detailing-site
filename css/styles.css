@@ -4,9 +4,9 @@
 
 /* ----- Custom Properties ----- */
 :root {
-  --color-brand:        #e8a000;
-  --color-brand-dark:   #c47e00;
-  --color-brand-light:  #ffd166;
+  --color-brand:        #1d6fe5;
+  --color-brand-dark:   #1455bc;
+  --color-brand-light:  #60a5fa;
   --color-dark:         #0d0d0d;
   --color-dark-2:       #161616;
   --color-dark-3:       #1e1e1e;
@@ -30,7 +30,7 @@
   --shadow-sm:  0 1px 3px rgba(0,0,0,.4);
   --shadow-md:  0 4px 16px rgba(0,0,0,.5);
   --shadow-lg:  0 8px 40px rgba(0,0,0,.6);
-  --shadow-glow: 0 0 30px rgba(232,160,0,.25);
+  --shadow-glow: 0 0 30px rgba(29,111,229,.25);
 
   --transition-base: 0.25s ease;
   --transition-slow: 0.4s ease;
@@ -364,8 +364,8 @@ address { font-style: normal; }
 
 .hero-eyebrow {
   display: inline-block;
-  background-color: rgba(232,160,0,.15);
-  border: 1px solid rgba(232,160,0,.4);
+  background-color: rgba(29,111,229,.15);
+  border: 1px solid rgba(29,111,229,.4);
   color: var(--color-brand-light);
   font-size: .75rem;
   font-weight: 700;
@@ -665,8 +665,8 @@ address { font-style: normal; }
 .why-icon {
   width: 36px;
   height: 36px;
-  background-color: rgba(232,160,0,.12);
-  border: 1px solid rgba(232,160,0,.3);
+  background-color: rgba(29,111,229,.12);
+  border: 1px solid rgba(29,111,229,.3);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -760,7 +760,7 @@ address { font-style: normal; }
 }
 
 .testimonial-card:hover {
-  border-color: rgba(232,160,0,.35);
+  border-color: rgba(29,111,229,.35);
   box-shadow: var(--shadow-glow);
 }
 
@@ -906,13 +906,13 @@ address { font-style: normal; }
 }
 
 .contact-card:hover {
-  border-color: rgba(232,160,0,.35);
+  border-color: rgba(29,111,229,.35);
 }
 
 .contact-icon {
   width: 44px;
   height: 44px;
-  background-color: rgba(232,160,0,.1);
+  background-color: rgba(29,111,229,.1);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -989,7 +989,7 @@ a.contact-value:hover { color: var(--color-brand); }
 
 .form-input:focus {
   border-color: var(--color-brand);
-  box-shadow: 0 0 0 3px rgba(232,160,0,.15);
+  box-shadow: 0 0 0 3px rgba(29,111,229,.15);
 }
 
 .form-select {
@@ -1077,7 +1077,7 @@ a.contact-value:hover { color: var(--color-brand); }
 .social-link:hover {
   color: var(--color-brand);
   border-color: var(--color-brand);
-  background-color: rgba(232,160,0,.08);
+  background-color: rgba(29,111,229,.08);
 }
 
 .social-link svg { width: 17px; height: 17px; }
@@ -1144,7 +1144,7 @@ a.contact-value:hover { color: var(--color-brand); }
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 20px rgba(232,160,0,.45);
+  box-shadow: 0 4px 20px rgba(29,111,229,.45);
   transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 
@@ -1152,7 +1152,7 @@ a.contact-value:hover { color: var(--color-brand); }
 
 .fab-call:hover {
   transform: scale(1.08);
-  box-shadow: 0 6px 30px rgba(232,160,0,.6);
+  box-shadow: 0 6px 30px rgba(29,111,229,.6);
 }
 
 /* ============================================================
